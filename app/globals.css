@@ -89,8 +89,24 @@
 
 .gradient-border {
   background: linear-gradient(var(--background), var(--background)) padding-box,
-              linear-gradient(to right, hsl(var(--gradient-1)), hsl(var(--gradient-2)), hsl(var(--gradient-3))) border-box;
+    linear-gradient(
+        to right,
+        hsl(var(--gradient-1)),
+        hsl(var(--gradient-2)),
+        hsl(var(--gradient-3))
+      )
+      border-box;
   border: 2px solid transparent;
+}
+
+/* Hide scrollbar for all browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
 }
 
 .animate-float {

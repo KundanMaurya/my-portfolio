@@ -28,7 +28,7 @@ export const portfolioData: PortfolioData = {
     {
       company: "Microcosmworks",
       position: " Full Stack Developer",
-      period: "Sep=2024 - Fab-2025",
+      period: "Sep-2024 - Fab-2025",
       description:
         "Led development of microservices architecture, improving system scalability by 300%. Mentored junior developers and implemented best practices.",
       technologies: ["React", "Node.js", "MongoDB", "Next.js"],
@@ -57,33 +57,34 @@ export const portfolioData: PortfolioData = {
   ],
   testimonials: [
     {
-      name: "Sarah Johnson",
+      name: "Rohit Mehta",
       position: "Product Manager",
-      company: "TechCorp Inc.",
+      company: "CodeCrafters Solutions",
       image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+        "https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&q=80&w=200",
       content:
-        "Kundan is an exceptional developer who consistently delivers high-quality work. His technical expertise and problem-solving skills have been invaluable to our team.",
+        "Kundan is a talented developer with a keen eye for detail. His technical knowledge and ability to solve challenges efficiently have been a great asset to our team.",
     },
     {
-      name: "Michael Chen",
+      name: "Sneha Patil",
       position: "CTO",
-      company: "StartupHub",
+      company: "WebNest Technologies",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+        "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?auto=format&fit=crop&q=80&w=200",
       content:
-        "Working with Kundan was a pleasure. His attention to detail and ability to tackle complex challenges made him an essential part of our development team.",
+        "Working with Kundan has been a fantastic experience. His dedication, problem-solving skills, and ability to deliver high-quality code make him a valuable developer.",
     },
     {
-      name: "Emily Rodriguez",
+      name: "Arjun Nair",
       position: "Tech Lead",
-      company: "InnovateX",
+      company: "NextGen Softwares",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200",
+        "https://images.unsplash.com/photo-1545803928-04e3f4cdd4ed?auto=format&fit=crop&q=80&w=200",
       content:
-        "Kundan's expertise in full-stack development and his commitment to code quality have significantly improved our project's success.",
+        "Kundan's expertise in full-stack development and his commitment to clean, efficient code have significantly contributed to our project's success.",
     },
   ],
+
   achievements: [
     {
       value: "10+",
